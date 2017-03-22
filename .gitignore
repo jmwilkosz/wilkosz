@@ -1,0 +1,20 @@
+# global
+**/.DS_Store
+**/.idea
+**/*.iml
+
+# lib 
+lib/**
+
+# wilkosz-ui
+wilkosz-ui/node_modules/**
+wilkosz-ui/dist
+wilkosz-ui/jspm_packages
+wilkosz-ui/npm-debug.*
+wilkosz-ui/link-checker-results.txt
+wilkosz-ui/src/**/*.js
+wilkosz-ui/*.js.map
+wilkosz-ui/e2e/**/*.js
+wilkosz-ui/e2e/**/*.js.map
+wilkosz-ui/_test-output
+wilkosz-ui/_temp

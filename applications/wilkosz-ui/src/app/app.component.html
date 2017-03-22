@@ -1,0 +1,33 @@
+<md-sidenav-container>
+  <md-sidenav #sidenav>
+    <app-profile></app-profile>
+  </md-sidenav>
+
+  <div class="example-sidenav-content">
+
+    <span mdTooltip="Profile" mdTooltipPosition="after" class="wilkosz-profile">
+      <a md-fab (click)="sidenav.open()">
+        <i class="material-icons">person</i>
+      </a>
+    </span>
+
+    <app-blog></app-blog>
+    <app-maps></app-maps>
+    <app-footer></app-footer>
+
+  </div>
+  <!-- primary content -->
+</md-sidenav-container>
+
+<span mdTooltip="Google Drive Resume" mdTooltipPosition="above" class="wilkosz-resume">
+  <a md-fab href="https://docs.google.com/document/d/19iUy9yWdQps8xeUAHZ28JkOeM9ILAKTTpQP7VTC2CUU/edit?usp=sharing" target="_blank">
+    <i class="material-icons">insert_drive_file</i>
+  </a>
+</span>
+
+
+
+
+
+
+
