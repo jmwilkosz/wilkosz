@@ -22,7 +22,7 @@ export class MapsComponent implements OnInit {
 
   loadMap(){
     console.log(google);
-    var Boston = {lat: 42.361145, lng: -71.057083};
+    var Boston = {lat: 42.360406, lng: -71.057993};
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
