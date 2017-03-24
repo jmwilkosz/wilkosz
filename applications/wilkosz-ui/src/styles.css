@@ -16,5 +16,6 @@ md-card {
   right: 10px;
 }
 
-.wilkosz-profile {
+.wilkosz-cursor {
+  cursor: pointer;
 }

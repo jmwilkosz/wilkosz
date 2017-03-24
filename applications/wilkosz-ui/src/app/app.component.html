@@ -5,11 +5,13 @@
 
   <div class="example-sidenav-content">
 
-    <span mdTooltip="Profile" mdTooltipPosition="after" class="wilkosz-profile">
-      <a md-fab (click)="sidenav.open()">
-        <i class="material-icons">person</i>
-      </a>
-    </span>
+    <md-toolbar color="accent" >
+      <span class="wilkosz-cursor" mdTooltip="Profile" mdTooltipPosition="below" (click)="sidenav.open()">
+        <i class="material-icons" >person</i>
+        Wilkosz.com.au
+      </span>
+
+    </md-toolbar>
 
     <app-blog></app-blog>
     <app-maps></app-maps>
