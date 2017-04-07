@@ -1,2 +1,2 @@
 # wilkosz
-Personal website for wilkosz.com.au
+Personal website for joshuawilkosz.com
