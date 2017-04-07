@@ -10,7 +10,6 @@ import { MapsComponent } from './maps/maps.component';
 import { NavComponent } from './nav/nav.component';
 import 'hammerjs';
 import { ProfileComponent } from './profile/profile.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterialModule,
-    FlexLayoutModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
