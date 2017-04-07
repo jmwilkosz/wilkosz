@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { BlogComponent } from './blog/blog.component';
 import { FooterComponent } from './footer/footer.component';
 import { MapsComponent } from './maps/maps.component';
-import { NavComponent } from './nav/nav.component';
 import 'hammerjs';
 import { ProfileComponent } from './profile/profile.component';
 
@@ -17,7 +16,6 @@ import { ProfileComponent } from './profile/profile.component';
     BlogComponent,
     FooterComponent,
     MapsComponent,
-    NavComponent,
     ProfileComponent
   ],
   imports: [
