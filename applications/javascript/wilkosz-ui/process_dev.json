@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "joshuawilkosz",
+      "cwd": "/Users/joshuawilkosz/Git/wilkosz/applications/javascript/wilkosz-ui/build/",
+      "args": "-p 3002 -d false",
+      "script": "/usr/local/lib/node_modules/http-server/bin/http-server"
+    }
+  ]
+}

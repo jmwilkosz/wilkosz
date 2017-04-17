@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "joshuawilkosz",
+      "cwd": "/var/www/joshuawilkosz-ui/dist",
+      "args": "-p 3004 -d false",
+      "script": "/usr/lib/node_modules/http-server/bin/http-server"
+    }
+  ]
+}

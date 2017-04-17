@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <title>joshua wilkosz</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="map"></div>
+    <script>
+        var map;
+        function initMap() {
+            var Boston = {lat: 42.360406, lng: -71.057993};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: Boston,
+                draggable: false,
+                scaleControl: false,
+                scrollwheel: false,
+                navigationControl: false,
+                mapTypeControl: false
+            });
+            var marker = new google.maps.Marker({
+                position: Boston,
+                map: map
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcZamiQnGTcULAVFiQZQ56uAvOD9VJ-Xo&callback=initMap"
+            async defer>
+    </script>
+  </body>
+</html>
