@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+.wilkosz-nav-title{
+  text-decoration: none;
+}
+
 .wilkosz-padding-bottom{
   padding-bottom:15px;
 }
