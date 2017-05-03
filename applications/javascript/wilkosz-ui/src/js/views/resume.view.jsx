@@ -1,5 +1,5 @@
 // React components
-import React, {PropTypes, Component} from 'react';
+import React from 'react';
 
 // Material-ui components
 import {

@@ -1,4 +1,4 @@
-import React, { PropTypes, Component } from 'react';
+import React from 'react';
 import ReactPDF from 'react-pdf';
 
 const RESUME_TITLE = "JoshuaWilkoszResume.pdf";

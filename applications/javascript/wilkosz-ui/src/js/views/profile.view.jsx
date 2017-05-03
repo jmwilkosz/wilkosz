@@ -1,5 +1,5 @@
 // React components
-import React, {PropTypes, Component} from 'react';
+import React from 'react';
 
 // Material-ui components
 import {
@@ -19,17 +19,11 @@ const Profile = () => (
         <CardTitle title={<div><i className="material-icons wilkosz-icon-move">person</i>Profile</div>}
                    subtitle="Joshua Wilkosz"/>
         <CardText>
-            <p><i>A motivated Software and Robotics Engineer, who is excited by Internet Of Things (IOT) and its
-                continual impact on our environment</i></p>
+            <p><i>A Software Engineer and Maker</i></p>
             <ul>
-                <li className="wilkosz-no-list"><i className="material-icons wilkosz-icon-list">email</i>me@joshuawilkosz.com
-                </li>
-                <li className="wilkosz-no-list"><i className="material-icons wilkosz-icon-list">insert_link</i><a
-                    href="https://www.linkedin.com/in/joshuawilkosz/">https://linkedin.com/in/joshuawilkosz/</a></li>
+                <li className="wilkosz-no-list"><i className="material-icons wilkosz-icon-list">email</i>me@joshuawilkosz.com</li>
                 <li className="wilkosz-no-list"><i className="material-icons wilkosz-icon-list">insert_link</i><a
                     href="https://github.com/wilkosz">https://github.com/wilkosz</a></li>
-                <li className="wilkosz-no-list"><i className="material-icons wilkosz-icon-list">insert_link</i><a
-                    href="https://docs.google.com/document/d/19iUy9yWdQps8xeUAHZ28JkOeM9ILAKTTpQP7VTC2CUU/edit?usp=sharing">https://drive.google.com/resume</a></li>
             </ul>
         </CardText>
     </Card>
@@ -39,16 +33,16 @@ const NiuginiHelicopters = () => (
     <Card>
         <CardTitle
             title={<div><i className="material-icons wilkosz-icon-move">airplanemode_active</i>Niugini Helicopters PTY.
-                LTD.</div>} subtitle="Software Contract | Jul2016-Current"/>
+                LTD.</div>} subtitle="Software Engineer | Jul2016-Current"/>
         <CardText>
             Github: <a href="https://github.com/wilkosz/Aviation">github.com/wilkosz/Aviation</a>
             <p>Continuous feature development and integration of a central business platform, targeted at managing
-                helicopters, resources, and most importantly time. Platform consits of:</p>
+                helicopters, resources, and most importantly time. Platform consists of:</p>
             <ul>
                 <li>JSON RESTful web service</li>
-                <li>Angular UI</li>
+                <li>React UI</li>
             </ul>
-            <p>Technoogies: <i>Linux, Angular2, MySQL 5.7, and Java SE 8</i></p>
+            <p>Technologies: <i>Linux, React, MySQL, and Java EE</i></p>
         </CardText>
     </Card>
 );
@@ -57,7 +51,7 @@ const PremierTechnologies = () => (
     <Card>
         <CardTitle
             title={<div><i className="material-icons wilkosz-icon-move">credit_card</i>Premier Technologies</div>}
-            subtitle="Software Engineer  | Oct2016-Mar2017"/>
+            subtitle="Software Engineer  | Oct2015-Mar2017"/>
         <CardText>
             <p>Premier's Portfolio includes a complete suite of business solutions for Cloud Contact Services, Payments,
                 and Receivables on an International Level.</p>
@@ -66,7 +60,7 @@ const PremierTechnologies = () => (
                 <li>API service integration with clients and vendors</li>
                 <li>Support Management Portal which allowed for more effective and efficient servicing of clients</li>
             </ul>
-            <p><i>Tehnologies: C#, .NET 4.6, Internet Information Services, and MSSQL</i></p>
+            <p><i>Technologies: C#, .NET, Internet Information Services, and MSSQL</i></p>
             <p><i>Website: <a href="http://www.premier.com.au/">http://www.premier.com.au</a></i></p>
         </CardText>
     </Card>
@@ -84,7 +78,7 @@ const OshiiDigital = () => (
                 <li>Front-end and back-end engineering solutions</li>
                 <li>Digital marketing strategies</li>
             </ul>
-            <p><i>Tehnologies: HTML/CSS, C#, and PHP</i></p>
+            <p><i>Technologies: HTML/CSS, C#, and PHP</i></p>
             <p><i>Website: <a href="http://oshiidigital.com/">http://oshiidigital.com</a></i></p>
         </CardText>
     </Card>
